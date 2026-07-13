@@ -1,3 +1,0 @@
-Get-ChildItem -Directory -Recurse | ForEach-Object {
-    New-Item -Path "$($_.FullName)\.gitkeep" -ItemType File -Force | Out-Null
-}
